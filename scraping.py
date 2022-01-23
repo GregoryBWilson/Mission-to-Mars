@@ -120,7 +120,7 @@ def hemispheres(browser):
 
         hemispheres_dictionary = {
             "title": title_element,
-            "img_url": sample_element
+            "img_url": f'https://marshemispheres.com/{sample_element}'
         }
         return hemispheres_dictionary
     
